@@ -13,7 +13,7 @@ public class GameManager {
         System.out.println("Let the fight commence!");
 
         while (c1.isAlive() && c2.isAlive()) {
-            System.out.println("-------------------------------------------------");
+            System.out.println("------------------------------------------------");
             System.out.println(c1.getClass().getSimpleName() + " attacks first" + c2.getClass().getSimpleName() + "!");
             c1.attack(c2);
             System.out.println(c2.getClass().getSimpleName() + "'s HP: " + c2.getHp());
